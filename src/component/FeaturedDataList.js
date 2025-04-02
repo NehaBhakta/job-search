@@ -5,7 +5,6 @@ const FeaturedDataList = (props) => {
   const { ListData } = props;
   const {
     Titel,
-    serLink,
     serviceImg,
     review,
     h1,
