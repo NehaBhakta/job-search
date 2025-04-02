@@ -55,7 +55,7 @@ const Footer = () => {
             </div>
             <div className="footer-bottom col-xl-12 col-md-12">
               <p>
-                ©2022 <a href="">Orbit Jobs</a>All rights reserved.
+                ©2022 <a href="https://example.com">Orbit Jobs</a>All rights reserved.
               </p>
             </div>
           </div>
