@@ -7,7 +7,6 @@ import Banner from "./pages/Banner/Banner";
 import Logo from "./assets/images/logo.png";
 import React from "react";
 import Language from "./component/Language";
-import Demo from "./component/Pr";
 import SearchBar from "./pages/Serchbaar/Serch";
 
 function App() {
