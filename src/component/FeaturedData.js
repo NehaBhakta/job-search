@@ -11,7 +11,6 @@ let FeaturedData = [
   {
     id: 1,
     title: "Tech Rookie Internship Program (TRIP) - iOS Eng...",
-    serLink: "https://in.indeed.com/",
     serviceImg: f1,
     review: "4.1 | 50+ reviews",
     company: "PT Midas Daya Teknologi",
@@ -22,7 +21,6 @@ let FeaturedData = [
   {
     id: 2,
     title: "Business Development Support - Bandung",
-    serLink: "https://in.indeed.com/",
     serviceImg: f2,
     review: "4.1 | 50+ reviews",
     company: "Lalamove",
@@ -33,7 +31,6 @@ let FeaturedData = [
   {
     id: 3,
     title: "Program Management Officer",
-    serLink: "https://in.indeed.com/",
     serviceImg: f3,
     review: "4.1 | 50+ reviews",
     company: "Kompas Group",
@@ -44,7 +41,6 @@ let FeaturedData = [
   {
     id: 4,
     title: "Cyber Security Engineer",
-    serLink: "https://in.indeed.com/",
     serviceImg: f4,
     review: "4.1 | 50+ reviews",
     company: "Cyber Security Engineer",
@@ -55,7 +51,6 @@ let FeaturedData = [
   {
     id: 5,
     title: "Visual Designer (Freelance)",
-    serLink: "https://in.indeed.com/",
     serviceImg: f5,
     review: "4.1 | 50+ reviews",
     company: "Whiz (YC W22)",
@@ -66,7 +61,6 @@ let FeaturedData = [
   {
     id: 6,
     title: "Risk Manager",
-    serLink: "https://in.indeed.com/",
     serviceImg: f6,
     review: "4.1 | 50+ reviews",
     company: "Julo",
@@ -77,7 +71,6 @@ let FeaturedData = [
   {
     id: 7,
     title: "Transporter Management Executive",
-    serLink: "https://in.indeed.com/",
     serviceImg: f7,
     review: "4.1 | 50+ reviews",
     company: "Logisly",
@@ -88,7 +81,6 @@ let FeaturedData = [
   {
     id: 8,
     title: "Capacity & Configuration",
-    serLink: "https://in.indeed.com/",
     serviceImg: f8,
     review: "4.1 | 50+ reviews",
     company: "UOB",
