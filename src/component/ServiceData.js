@@ -1,58 +1,42 @@
+import designImg from "../assets/images/design.svg";
+import devImg from "../assets/images/Development.svg";
+import contentImg from "../assets/images/Contentwriter.svg";
+import categoryImg from "../assets/images/Categorone.svg";
+
 let ServiceDatalist = [
   {
     id: 1,
-    Titel: "1 Business Development",
+    Titel: "Business Development",
     serLink: "https://in.indeed.com/",
-    serviceImg: "JULO.png",
+    serviceImg: designImg,
     Openings: "2 Openings",
   },
   {
     id: 2,
     Titel: "Designing",
     serLink: "https://in.indeed.com/",
-    serviceImg: "/design.svg",
+    serviceImg: designImg,
     Openings: "3 Openings",
   },
   {
     id: 3,
     Titel: "Development",
     serLink: "https://in.indeed.com/",
-    serviceImg: "/Development.svg",
+    serviceImg: devImg,
     Openings: "3 Openings",
   },
   {
     id: 4,
     Titel: "Content writer",
     serLink: "https://in.indeed.com/",
-    serviceImg: "/Contentwriter.svg",
-    Openings: "3 Openings",
-  },
-  {
-    id: 5,
-    Titel: "Content writer",
-    serLink: "https://in.indeed.com/",
-    serviceImg: "/Contentwriter.svg",
-    Openings: "3 Openings",
-  },
-  {
-    id: 6,
-    Titel: "Development",
-    serLink: "https://in.indeed.com/",
-    serviceImg: "/Development.svg",
-    Openings: "3 Openings",
-  },
-  {
-    id: 7,
-    Titel: "Designing",
-    serLink: "https://in.indeed.com/",
-    serviceImg: "/design.svg",
+    serviceImg: contentImg,
     Openings: "3 Openings",
   },
   {
     id: 8,
     Titel: "Business Development",
     serLink: "https://in.indeed.com/",
-    serviceImg: "/Categorone.svg",
+    serviceImg: categoryImg,
     Openings: "2 Openings",
   },
 ];
