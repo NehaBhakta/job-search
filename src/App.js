@@ -4,7 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Banner from "./pages/Banner/Banner";
 // Fixed: use relative path for Logo
-import Logo from "./assets/images/logo.png"; 
+import Logo from "./assets/images/logo.png";
 import React from "react";
 import Language from "./component/Language";
 import Demo from "./component/Pr";
