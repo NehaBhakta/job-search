@@ -7,7 +7,7 @@ const FeaturedDataList = (props) => {
     title,
     serviceImg,
     review,
-    h1,
+    company,
     titleone,
     titletwo,
     time,
@@ -63,7 +63,7 @@ const FeaturedDataList = (props) => {
             </div>
             <div className="review-boxx">
               <p title={title} className="">
-                {h1}
+                {company}
               </p>
               <span>
                 <i class="bi bi-star-fill"></i>
