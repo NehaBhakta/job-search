@@ -1,51 +1,42 @@
 import { useEffect } from "react";
 import App from "./App";
 import ReactDOM from "react-dom/client";
-import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
+import { HashRouter, Routes, Route, Outlet } from "react-router-dom";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import Error from "./pages/Error/Error";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
+// Layout component
 const Applayout = () => {
   useEffect(() => {
     AOS.init();
   }, []);
+
   return (
-    <>
-      <div className="header-box">
-        <App />
-        <Outlet />
-      </div>
-    </>
+    <div className="header-box">
+      <App />
+      <Outlet />
+    </div>
   );
 };
 
-const appRouter = createBrowserRouter([
-  {
-    path: "/",
-    element: <Applayout />,
-    children: [
-      {
-        path: "/MyJobs",
-        element: <Error />,
-      },
-      {
-        path: "/Subscribe",
-        element: <Error />,
-      },
-      {
-        path: "/Signin",
-        element: <Error />,
-      },
-      {
-        path: "/ForEmployer",
-        element: <Error />,
-      },
-    ],
-  },
-]);
+// HashRouter version of routes
+const RootRoutes = () => (
+  <Routes>
+    <Route path="/" element={<Applayout />}>
+      <Route path="MyJobs" element={<Error />} />
+      <Route path="Subscribe" element={<Error />} />
+      <Route path="Signin" element={<Error />} />
+      <Route path="ForEmployer" element={<Error />} />
+    </Route>
+  </Routes>
+);
 
+// Render the app
 const root = ReactDOM.createRoot(document.getElementById("root"));
-
-root.render(<RouterProvider router={appRouter} />);
+root.render(
+  <HashRouter>
+    <RootRoutes />
+  </HashRouter>
+);
