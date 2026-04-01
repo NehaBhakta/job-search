@@ -39,6 +39,20 @@ let ServiceDatalist = [
     serviceImg: categoryImg,
     Openings: "2 Openings",
   },
+  {
+    id: 9,
+    Titel: "Business Development",
+    serLink: "https://in.indeed.com/",
+    serviceImg: categoryImg,
+    Openings: "2 Openings",
+  },
+  {
+    id: 10,
+    Titel: "Business Development",
+    serLink: "https://in.indeed.com/",
+    serviceImg: categoryImg,
+    Openings: "2 Openings",
+  },
 ];
 
 export default ServiceDatalist;
