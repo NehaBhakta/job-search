@@ -62,7 +62,7 @@ const FeaturedDataList = (props) => {
               </div>
             </div>
             <div className="review-boxx">
-              <p title={Titel} className="">
+              <p title={title} className="">
                 {h1}
               </p>
               <span>
