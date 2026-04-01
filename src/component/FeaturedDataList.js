@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const FeaturedDataList = (props) => {
   const { ListData } = props;
   const {
-    Titel,
+    title,
     serviceImg,
     review,
     h1,
@@ -34,7 +34,7 @@ const FeaturedDataList = (props) => {
                   <img alt="" src={serviceImg} />
                 </div>
                 <h6 title="Front End Developer (VueJs)" className="job-type">
-                  {Titel}
+                  {title}
                 </h6>
               </div>
               <div>
