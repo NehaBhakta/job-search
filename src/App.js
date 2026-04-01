@@ -7,7 +7,7 @@ import Banner from "./pages/Banner/Banner";
 import Logo from "./assets/images/logo.png";
 import React from "react";
 import Language from "./component/Language";
-import SearchBar from "./pages/Serchbaar/Serch";
+
 
 function App() {
   // Menu responsive
