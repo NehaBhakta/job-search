@@ -34,7 +34,7 @@ const FeaturedDataList = (props) => {
                   <img alt="" src={serviceImg} />
                 </div>
                 <h6 title="Front End Developer (VueJs)" className="job-type">
-                  {title || "No Title Provided"}
+                  {Titel}
                 </h6>
               </div>
               <div>
